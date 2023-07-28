@@ -1,0 +1,38 @@
+:root {
+  --negro: #000000;
+  --blanco: #FFF;
+  --celeste: skyblue;
+}
+
+* {
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  background: rgba(0, 0, 0, 0.981);
+}
+
+.contenedor {
+  max-width: 1000px;
+  margin: 10px auto;
+  
+}
+.icono {
+  display:flexbox;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255); 
+  
+}
+.boton {
+  padding: 5px;
+  border-bottom: 6px;
+  background-color:gray 
+}
+.buscador {
+  color: black;
+}
