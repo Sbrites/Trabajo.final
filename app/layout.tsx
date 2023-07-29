@@ -1,8 +1,9 @@
+import CardInfo from './componentes/CardInfo'
 import Footer from './componentes/Footer'
 import Nav from './componentes/Nav'
 import './globals.css'
 import { Space_Grotesk} from 'next/font/google'
-
+import Evergren from './componentes/icons/Evergren'
 const space_Grotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export const metadata = {
@@ -18,7 +19,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={space_Grotesk.className}>
+        <div className='Title'>
+
+        </div>
         <div className='contenedor'>
+          <Evergren /> 
           <Nav />
           {children}
           <Footer />
