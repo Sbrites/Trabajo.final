@@ -1,11 +1,13 @@
 .donacion{
+    color: white;
     border-radius: 20px;
     padding: 10px;
     background-color: rgba(5, 209, 63, 0.198);
 }
 .boton{
+    color: white;
     border-radius: 15px;
-    background-color: rgb(132, 132, 139);
+    background-color: rgb(0, 0, 0);
 }
 .introducion{
     padding: 100px;

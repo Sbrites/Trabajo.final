@@ -1,10 +1,12 @@
 
 .nav-lista {
+    color: white;
     display: flex;
     list-style: none;
 }
 
 .nav-item {
+    color: white;
     flex-grow: 1;
     padding: 8px 0;
     text-align: center;

@@ -4,11 +4,11 @@ export default function Contacto () {
     return (
         <>
             <h1 className='descripcion'>
-            Ciudad Autónoma de Buenos Aires
-            Defensa 251, piso 6to K C1065AAC
-            Ciudad Autónoma de Buenos Aires, Argentina.
-            Tel/Fax: +54 11 4343-4086
-i           nfo@Evergreen.org.ar </h1>
+                    Ciudad Autónoma de Buenos Aires
+                    Defensa 251, piso 6to K C1065AAC
+                    Ciudad Autónoma de Buenos Aires, Argentina.
+                    Tel/Fax: +54 11 4343-4086
+i           </h1>   nfo@Evergreen.org.ar 
 
                 <p>
                 Por consultas para el área de socios contactarse por favor con Evergren@conciencia.org.ar

@@ -9,7 +9,7 @@
 }
 
 * {
-  color: rgb(255, 255, 255);
+  color: rgb(113, 113, 113);
   box-sizing: border-box;
   padding: 0px;
   margin: 0;
@@ -28,7 +28,7 @@ body {
   
 }
 .Icono {
-  background-color: #276b55f9;
+  background-color: #194637f9;
   margin-bottom: 100px;
   padding: 5px;
   border-radius: 12px;
@@ -44,7 +44,7 @@ body {
 
 .Card{
   text-align:center;
-  color: rgb(75, 66, 66);
+  color: rgb(9, 9, 9);
   margin-bottom: 2px;
   background-color: #212020;
   padding: 15px;
