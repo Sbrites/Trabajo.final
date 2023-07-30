@@ -10,10 +10,13 @@ export default function Nav () {
                     <Link href='./'>Inicio</Link>
                 </li>
                 <li className='nav-item'>
-                    <Link href='/servicios'>Servicios</Link>
+                    <Link href='/servicios'>Donaciones</Link>
                 </li>
                 <li className='nav-item'>
                     <Link href='/contacto'>Contacto</Link>
+                </li>
+                <li className='nav-item'>
+                <Link href='/informacion'>Quienes Somos</Link>
                 </li>
             </ul>
         </nav>

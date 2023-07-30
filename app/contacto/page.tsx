@@ -3,7 +3,16 @@ import './contacto.css'
 export default function Contacto () {
     return (
         <>
-            <h1>Estás en contacto</h1>
+            <h1 className='descripcion'>
+            Ciudad Autónoma de Buenos Aires
+            Defensa 251, piso 6to K C1065AAC
+            Ciudad Autónoma de Buenos Aires, Argentina.
+            Tel/Fax: +54 11 4343-4086
+i           nfo@Evergreen.org.ar </h1>
+
+                <p>
+                Por consultas para el área de socios contactarse por favor con Evergren@conciencia.org.ar
+                </p>
 
             {/*
                 Action: Dirección de a dónde va el form

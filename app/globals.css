@@ -9,7 +9,7 @@
 }
 
 * {
-  color: rgb(121, 121, 121);
+  color: rgb(255, 255, 255);
   box-sizing: border-box;
   padding: 0px;
   margin: 0;
@@ -17,16 +17,18 @@
 }
 
 body {
-  background: rgba(10, 10, 10, 0.981);
+  background: rgb(4, 29, 35);
 }
 
 .contenedor {
-  display:grid;
+  text-align: center;
+  display: grid;
   max-width: 1000px;
   margin: 10px auto;
   
 }
 .Icono {
+  background-color: #276b55f9;
   margin-bottom: 100px;
   padding: 5px;
   border-radius: 12px;
@@ -36,18 +38,16 @@ body {
 .boton {
   padding: 5px;
   border-bottom: 6px;
-  background-color:rgb(4, 4, 4) 
+  background-color:rgb(0, 0, 0) 
 }
 
 
 .Card{
-  display: grid;
-  color: rgb(137, 136, 136);
+  text-align:center;
+  color: rgb(75, 66, 66);
   margin-bottom: 2px;
   background-color: #212020;
   padding: 15px;
   border-radius: 15px;
 }
-.contacto {
-  display: contents;
-}
+

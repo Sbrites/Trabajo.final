@@ -1,40 +1,41 @@
 import exp from 'constants'
 import styles from './page.module.css'
-import SearchIcon from './componentes/icons/SearchIcons'
+import SearchIcon from './icons/SearchIcons'
 import CardInfo from './componentes/CardInfo'
-import Evervgren from './componentes/icons/Evergren'
+import Evervgren from './icons/Evergren'
 import Image from 'next/image'
 import condor from './assets/image/condor.jpg'
 import pinguino from './assets/image/pinguino.jpg'
 import ballena from './assets/image/ballena.jpg'
 import ciervo from './assets/image/ciervo.jpg'
+import UseCardInfo from './icons/UseCardInfo'
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <>
           <form className='Icono'>
-
               <input  className="buscador" type="text" placeholder="Search"/>
               <button className="boton">Buscar</button>
+              <UseCardInfo />
           </form>
         </>
 
       </div>
-        <article className='descripcion'/>
-        <div>
-        Las acciones humanas han alterado significativamente la naturaleza en todo el mundo. Alrededor de 1 millón de especies animales y vegetales están en peligro de extinción. Y ese es un tema que deberíamos tener muy en cuenta cuando se celebra el Día del Animal este 19 de abril en nuestro territorio.
-        Con un pasado centenario de defensa de los animales recordemos que que Ignacio Albarracín fue el gran impulsor de la Ley Nacional de Protección de Animales N° 2.786 que se promulgó el 25 de julio de 1891), Argentina es uno de los países del planeta con mayor biodiversidad, y no es la excepción entre las naciones que tienen muchos animales con riesgo de desaparecer por distintos motivos.
-        Según la Fundación de Vida Silvestre Argentina FVSA hoy suman más de 500 las especies amenazadas en nuestro país. Pero ¿cuáles son los animales en peligro de extinción en Argentina? Te contamos algunas de esas especies más emblemáticas de nuestro territorio.
+        <article />
+        <div className='descripcion' >
+          Las acciones humanas han alterado significativamente la naturaleza en todo el mundo. Alrededor de 1 millón de especies animales y vegetales están en peligro de extinción. Y ese es un tema que deberíamos tener muy en cuenta cuando se celebra el Día del Animal este 19 de abril en nuestro territorio.
+          Con un pasado centenario de defensa de los animales recordemos que que Ignacio Albarracín fue el gran impulsor de la Ley Nacional de Protección de Animales N° 2.786 que se promulgó el 25 de julio de 1891), Argentina es uno de los países del planeta con mayor biodiversidad, y no es la excepción entre las naciones que tienen muchos animales con riesgo de desaparecer por distintos motivos.
+          Según la Fundación de Vida Silvestre Argentina FVSA hoy suman más de 500 las especies amenazadas en nuestro país. Pero ¿cuáles son los animales en peligro de extinción en Argentina? Te contamos algunas de esas especies más emblemáticas de nuestro territorio.
         </div>
       <div>
         <article className='Card'>
             <CardInfo />
-              <div className='Card'>
-                  <div>
+              <div >
+                  <div >
                       <Image src={pinguino} />
                   </div>
-                PINGÜINO DE MAGALLANES
+                    PINGÜINO DE MAGALLANES
                     <p>
                     Un animal hermoso, típico del sur argentino.A lo largo de la costa de la Patagonia argentina hay varias colonias donde se los puede ver en su hábitat natural. En Punta Tombo, Chubut, está la mayor reserva continental. Pero es una especie amenazada por la contaminación de los mares por la extracción del petróleo y por la pesca indiscriminada. Las hembras están subiendo peligrosamente más al norte de la Patagonia para parir, alejándose de los machos. Lo que aumenta su riesgo de supervivencia.
                      </p>
