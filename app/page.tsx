@@ -33,7 +33,7 @@ export default function Home() {
             <CardInfo />
               <div >
                   <div >
-                      <Image src={pinguino} />
+                      <Image src={pinguino} alt="" />
                   </div>
                     PINGÜINO DE MAGALLANES
                     <p>
@@ -44,7 +44,7 @@ export default function Home() {
         <article className='Card'>
             <CardInfo />
                   <div>
-                      <Image src={ciervo} />
+                      <Image src={ciervo} alt="" />
                   </div>
                 <div>
                   CIERVO DE LOS PANTANOS
@@ -56,7 +56,7 @@ export default function Home() {
         <article className='Card'>
             <CardInfo />
                   <div>
-                      <Image src={ballena} />
+                      <Image src={ballena} alt=""/>
                   </div>
               <div>
                 BALLENA FRANCA AUSTRAL
@@ -69,7 +69,7 @@ export default function Home() {
 
             <CardInfo />
             <div>
-                      <Image src={condor} />
+                      <Image src={condor} alt=""/>
                   </div>
               <div>
                 CÓNDOR ANDINO
