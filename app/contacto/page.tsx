@@ -33,24 +33,43 @@ i           </h1>   nfo@Evergreen.org.ar
             </form>
 
             <form method="post" className='formulario'>
+
                 {/* Identificamos cada campo con un atributo name */}
+
                 <label>
+
                     Nombre:
+
                     <input type="text" name="nombre" />
+
                 </label>
+
                 <label>
+
                     Mail:
+
                     <input type="email" name="email" />
+
                 </label>
+
                 <label>
+
                     Comentarios:
+
                     <textarea name="comentario" ></textarea>
+
                 </label>
+
+ 
 
                 <input type="hidden" name="form-name" value="contacto" />
 
+ 
+
                 {/* <input type="submit" value="Enviar" /> */}
+
                 <button type="submit">Enviar</button>
+
             </form>
         </>
     )
