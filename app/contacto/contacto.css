@@ -1,6 +1,6 @@
 
 .formulario {
-    color: white;
+    color: rgb(160, 160, 160);
     padding: 100px;
     text-align: center;
     display: grid;
@@ -9,6 +9,8 @@
     gap: 10px;
 }
 .descripcion {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     padding: 100px;
     text-align: center;

@@ -68,7 +68,7 @@ i           </h1>   nfo@Evergreen.org.ar
 
                 {/* <input type="submit" value="Enviar" /> */}
 
-                <button type="submit">Enviar</button>
+                <button className='boton' type="submit">Enviar</button>
 
             </form>
         </>

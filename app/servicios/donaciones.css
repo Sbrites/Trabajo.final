@@ -11,5 +11,8 @@
 }
 .introducion{
     color: white;
-    padding: 100px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 70px;
 }

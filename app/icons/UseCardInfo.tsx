@@ -1,4 +1,4 @@
-
+import { useState } from "react"
 const UseCardInfo = () => {
   return (<article className="resultado">
             

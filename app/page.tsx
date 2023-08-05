@@ -14,11 +14,13 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <>
-          <form className='Icono'>
-              <input  className="buscador" type="text" placeholder="Search"/>
+          <div>
+            <form className='Icono'>
+              <input  className="buscador" type="text" placeholder="Ciudad"/>
               <button className="boton">Buscar</button>
               <UseCardInfo />
           </form>
+          </div>
         </>
 
       </div>
@@ -29,52 +31,56 @@ export default function Home() {
           Según la Fundación de Vida Silvestre Argentina FVSA hoy suman más de 500 las especies amenazadas en nuestro país. Pero ¿cuáles son los animales en peligro de extinción en Argentina? Te contamos algunas de esas especies más emblemáticas de nuestro territorio.
         </div>
       <div>
-        <article className='Card'>
-            <CardInfo />
+        <article>
               <div >
-                  <div >
+                  <div className='imagen' >
                       <Image src={pinguino} alt="" />
                   </div>
-                    PINGÜINO DE MAGALLANES
-                    <p>
-                    Un animal hermoso, típico del sur argentino.A lo largo de la costa de la Patagonia argentina hay varias colonias donde se los puede ver en su hábitat natural. En Punta Tombo, Chubut, está la mayor reserva continental. Pero es una especie amenazada por la contaminación de los mares por la extracción del petróleo y por la pesca indiscriminada. Las hembras están subiendo peligrosamente más al norte de la Patagonia para parir, alejándose de los machos. Lo que aumenta su riesgo de supervivencia.
+                    <p className='pie1'>
+                      PINGÜINO DE MAGALLANES
+                    </p>
+                    <p className='pie2'>
+                      Un animal hermoso, típico del sur argentino
+                      A lo largo de la costa de la Patagonia argentina hay varias colonias donde se los puede ver en su hábitat natural. En Punta Tombo, Chubut, está la mayor reserva continental. Pero es una especie amenazada por la contaminación de los mares por la extracción del petróleo y por la pesca indiscriminada. Las hembras están subiendo peligrosamente más al norte de la Patagonia para parir, alejándose de los machos. Lo que aumenta su riesgo de supervivencia.
                      </p>
               </div>
         </article>
-        <article className='Card'>
-            <CardInfo />
-                  <div>
+        <article>
+                  <div className='imagen'>
                       <Image src={ciervo} alt="" />
                   </div>
                 <div>
-                  CIERVO DE LOS PANTANOS
-                    <p>
-                    El Blastocerus dichotomus o ciervo de los pantanos, es el tipo de ciervo más grande de Sudamérica: llega a 2 metros de largo y 1,20 de alto. Habita en los Esteros del Iberá, Corrientes. En las cuencas de los ríos Paraná y Paraguay, en la zona amazónica de Perú y en regiones de Bolivia. La caza indiscriminada, así como los cambios ambientales impulsados por la cría de ganado, redujeron notablemente su población.
+                    <p className='pie1'>
+                      CIERVO DE LOS PANTANOS
+                    </p>
+                    <p className='pie2'>
+                      El Blastocerus dichotomus o ciervo de los pantanos, es el tipo de ciervo más grande de Sudamérica: llega a 2 metros de largo y 1,20 de alto. Habita en los Esteros del Iberá, Corrientes. En las cuencas de los ríos Paraná y Paraguay, en la zona amazónica de Perú y en regiones de Bolivia. La caza indiscriminada, así como los cambios ambientales impulsados por la cría de ganado, redujeron notablemente su población.
                     </p>
                 </div>
         </article>
-        <article className='Card'>
-            <CardInfo />
-                  <div>
+        <article>
+                  <div className='imagen'>
                       <Image src={ballena} alt=""/>
                   </div>
               <div>
-                BALLENA FRANCA AUSTRAL
-                  <p>
-                  Es el mamífero más grande de la Argentina, donde se la puede ver en la costa de Puerto Madryn todos los años, de septiembre a diciembre, cuando llegan a esa zona para aparearse. La caza indiscriminada la asoló desde el siglo XIX. Su población original se redujo hasta en un 90 por ciento. Los científicos de la fauna marina creen que hoy solo quedan en el mundo 3000 ejemplares en todo el mundo, de los cuales el 20 por ciento está en el mar argentino. Animal imponente que mide 15 metros y pesa 47 mil kilos (47 toneladas), y se puede avistar silenciosamente en botes que se le acercan en el sur argentino.
+                  <p className='pie1'>
+                    BALLENA FRANCA AUSTRAL
+                  </p>
+                  <p className='pie2'>
+                    Es el mamífero más grande de la Argentina, donde se la puede ver en la costa de Puerto Madryn todos los años, de septiembre a diciembre, cuando llegan a esa zona para aparearse. La caza indiscriminada la asoló desde el siglo XIX. Su población original se redujo hasta en un 90 por ciento. Los científicos de la fauna marina creen que hoy solo quedan en el mundo 3000 ejemplares en todo el mundo, de los cuales el 20 por ciento está en el mar argentino. Animal imponente que mide 15 metros y pesa 47 mil kilos (47 toneladas), y se puede avistar silenciosamente en botes que se le acercan en el sur argentino.
                   </p>
               </div>
         </article>
-        <article className='Card'>
-
-            <CardInfo />
-            <div>
-                      <Image src={condor} alt=""/>
-                  </div>
+        <article>
+                <div className='imagen'>
+                  <Image src={condor} alt=""/>
+                </div>
               <div>
-                CÓNDOR ANDINO
-                  <p>
-                  Habita las cumbres de los Andes Sudamericanos e incluso la costa atlántica de Patagonia, donde estuvo extinto por más de un siglo. Como carroñero, limpia el ambiente de focos de infección. El envenenamiento, por uso ilegal de cebos tóxicos en ganadería, ocasiona muertes masivas de esta emblemática especie.
+                  <p className='pie1'>
+                    CÓNDOR ANDINO
+                  </p>
+                  <p className='pie2'>
+                    Habita las cumbres de los Andes Sudamericanos e incluso la costa atlántica de Patagonia, donde estuvo extinto por más de un siglo. Como carroñero, limpia el ambiente de focos de infección. El envenenamiento, por uso ilegal de cebos tóxicos en ganadería, ocasiona muertes masivas de esta emblemática especie.
                   </p>
               </div>
         </article>
@@ -83,4 +89,5 @@ export default function Home() {
     </main>
   )
 }
+
 

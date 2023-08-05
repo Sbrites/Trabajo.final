@@ -5,6 +5,7 @@ import './globals.css'
 import { Space_Grotesk} from 'next/font/google'
 import Evergren from './icons/Evergren'
 import Image from 'next/image'
+
 const space_Grotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export const metadata = {
