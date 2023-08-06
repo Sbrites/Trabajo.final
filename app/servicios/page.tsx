@@ -1,9 +1,7 @@
 
-// No uses SSR, renderiza en el cliente
-// Los hooks necesitan client-side rendering
 'use client';
 import './donaciones.css'
-// No funciona en SSR
+
 import { useState } from "react";
 
 export default function Donaciones () {
@@ -28,7 +26,7 @@ export default function Donaciones () {
                     </h1>
                 </div>
             <p > {number}</p>
-            <button className='boton' onClick={() => {setNumber(number + 100)}}>
+            <button className='boton1' onClick={() => {setNumber(number + 100)}}>
                 Donar
             </button>
         </>

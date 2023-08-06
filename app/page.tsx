@@ -16,7 +16,7 @@ export default function Home() {
         <>
           <div>
             <form className='Icono'>
-              <input  className="buscador" type="text" placeholder="Ciudad"/>
+              <input  className="buscador" type="text" placeholder="buscar"/>
               <button className="boton">Buscar</button>
               <UseCardInfo />
           </form>
